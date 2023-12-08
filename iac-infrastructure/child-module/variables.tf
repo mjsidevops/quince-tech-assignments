@@ -36,3 +36,7 @@ variable "instanceType" {
 variable "keyName" {
   description = "key name for the ec2 instance"
 }
+
+variable "bucket_name" {
+ default = "sample-bucket-name"
+}
