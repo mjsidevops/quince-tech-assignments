@@ -163,3 +163,7 @@ resource "aws_security_group" "example_sg" {
     Name = "ExampleSecurityGroup"
   }
 }
+
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = var.bucket_name
+}
